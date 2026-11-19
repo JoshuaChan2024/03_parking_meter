@@ -33,7 +33,7 @@ def test_calculate_parking_fee_out_of_range_raises_value_error(invalid_minutes):
 @pytest.mark.parametrize(
     "invalid_type_input",
     [
-        "60",        # String instead of int [cite: 260, 261]
+        "60",        # String instead of int [cite: 260, 261] 
         30.5,        # Float instead of int [cite: 260, 261]
         True,        # Boolean is not a valid integer [cite: 260, 261]
         None,        # NoneType [cite: 260, 261]
